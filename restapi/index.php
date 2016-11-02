@@ -24,9 +24,7 @@ if($controller_name != '' && file_exists("controller/" . $controller_name . "Con
     // call the index method of the controller
     $obj->index($method,$id);
 } 
-else {
-    
-}
+
 
 
 
